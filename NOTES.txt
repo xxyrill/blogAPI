@@ -1,0 +1,22 @@
+ERRORS
+1. error in creating the account in the
+url http://127.0.0.1:8000/api/v1/dj_rest_auth/registration/
+the code should be 201 (as per book) but it will say code 204.
+
+2. no token is created after the admin create a new user account
+see p.150
+NOTE: token is generated when you go to http://127.0.0.1:8000/api/v1/rest-auth/login/
+this is after making a POST. See p.152
+
+3. when logging out in admin, error Forbidden (403)
+CSRF verification failed. Request aborted.
+
+4. Logout is not working in http://127.0.0.1:8000/swagger/
+
+TAKE NOTE!!!!
+
+1. API has endpoints. It's like having a GET request at the end of the
+link. OR a URLs with associated verbs (GET, POST, UPDATE, DELETE).
+Read p.17
+
+2. Ended coding in this project on 6/5/2024
